@@ -1,12 +1,12 @@
 const num = 266219;
-let sum = 1;
+let product = 1;
 
 const arrNums = num.toString().split("");
 for (let i = 0; i < arrNums.length; i++) {
-    sum *= +arrNums[i]
+    product *= +arrNums[i]
 }
 
-console.log(sum)
-console.log(sum ** 3)
-const arrNewNum = (sum ** 3).toString().split("")
-console.log(arrNewNum[0], arrNewNum[1])
+console.log(product)
+const result = product ** 3;
+
+console.log(result.toString().slice(0,2));
