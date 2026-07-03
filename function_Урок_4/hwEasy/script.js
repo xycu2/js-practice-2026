@@ -20,3 +20,10 @@ const getTitle = function(title) {
     return cleanTitle[0].toLocaleUpperCase() + cleanTitle.slice(1).toLocaleLowerCase();
 }
 console.log(getTitle(" КаЛьКулятор Верстки"))
+
+// №4
+const getServicePercentPrices = function(totalSum, amoutSum) {
+    return totalSum - amoutSum;
+}
+
+const servicePercentPrice = getServicePercentPrices(350, 150);
