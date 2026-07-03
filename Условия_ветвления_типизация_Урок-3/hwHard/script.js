@@ -1,3 +1,5 @@
+'use strict';
+
 // №1 use if
 const lang = prompt("write the language")
 

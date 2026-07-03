@@ -1,3 +1,5 @@
+'use strict';
+
 const num = 266219;
 let product = 1;
 

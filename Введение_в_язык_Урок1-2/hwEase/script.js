@@ -1,3 +1,5 @@
+'use strict';
+
 const title = "js-practice-2026";
 const screens = "Простые, Сложные, Интерактивные";
 const screenPrice = 7;
