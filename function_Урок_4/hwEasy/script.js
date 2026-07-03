@@ -27,3 +27,16 @@ const getServicePercentPrices = function(totalSum, amoutSum) {
 }
 
 const servicePercentPrice = getServicePercentPrices(350, 150);
+
+// №5
+const getRollbackMessage = function() {
+    return "Вам предоставлена скидка"
+} 
+
+const showType = function(screens, callGetRollbackMessage, callGetServicePercentPrices) {
+    console.log(screens);
+    console.log(callGetRollbackMessage());
+    console.log(callGetServicePercentPrices(400, 100));
+}
+
+showType("fullHD", getRollbackMessage, getServicePercentPrices)
