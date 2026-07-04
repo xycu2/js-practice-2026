@@ -1,3 +1,4 @@
+'use strict'
 // №1
 let screenPrice;
 let screenPrice1;

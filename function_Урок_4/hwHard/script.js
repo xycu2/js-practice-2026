@@ -1,3 +1,4 @@
+'use strict'
 // №1
 const stringCheck = function (something) {
   if (typeof something !== "string") {

@@ -1,3 +1,4 @@
+'use strict'
 // №1
 const getAllServicePrices = function(service, service1) {
     return service + service1;
