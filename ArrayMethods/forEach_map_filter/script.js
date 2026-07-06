@@ -5,10 +5,28 @@ const books = [
     {id: 3, price: 780}
 ];
 
+// ==================================
 // forEach (изменяет исходный массив)
-books.forEach(item => {
-    item.price = item.price + 'руб';
-})
+// ==================================
 
-console.log('forEach:')
-console.log(books) // добавляем руб к каждому прайсу
+// books.forEach(item => {
+//     item.price = item.price + 'руб';
+// })
+
+// console.log('forEach:')
+// console.log(books) // добавляем руб к каждому прайсу
+
+// ==================================
+// map() (создает новый массив на основе изначального)
+// ==================================
+
+// const newArr = books.map(item => {
+//     const newObj = {
+//         id: item.id
+//     }
+//     return newObj;
+// })
+
+// console.log('map:')
+// console.log(newArr); выведится новый массив
+// console.log(books); выведится изначальный массив
