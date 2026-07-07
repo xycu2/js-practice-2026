@@ -36,3 +36,8 @@ for (let i = 0; i < totalInput.length; i++) {
     console.log(totalInput[i]);
 };
 
+// №8
+let screenBlock = document.querySelectorAll('.screen');
+
+console.log(screenBlock); 
+
