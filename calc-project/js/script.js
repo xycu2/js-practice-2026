@@ -12,3 +12,10 @@ console.log(headerBtn);
 const btnPlus = document.querySelector('.screen-btn');
 
 console.log(btnPlus);
+
+// №4
+const otherItemsPercent = document.querySelectorAll('.other-items.percent');
+const otherItemsNumber = document.querySelectorAll('.other-items.number');
+
+console.log(otherItemsPercent);
+console.log(otherItemsNumber);
