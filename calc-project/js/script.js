@@ -28,3 +28,11 @@ console.log(rollbackRange);
 // №6
 const rollbackSpan = document.querySelector('.rollback span.range-value');
 console.log(rollbackSpan);
+
+// №7
+const totalInput = document.getElementsByClassName('total-input');
+
+for (let i = 0; i < totalInput.length; i++) {
+    console.log(totalInput[i]);
+};
+
