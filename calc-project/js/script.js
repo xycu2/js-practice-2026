@@ -19,3 +19,8 @@ const otherItemsNumber = document.querySelectorAll('.other-items.number');
 
 console.log(otherItemsPercent);
 console.log(otherItemsNumber);
+
+//  №5
+const rollbackRange = document.querySelector('.rollback input');
+
+console.log(rollbackRange);
