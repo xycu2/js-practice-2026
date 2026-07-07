@@ -24,3 +24,7 @@ console.log(otherItemsNumber);
 const rollbackRange = document.querySelector('.rollback input');
 
 console.log(rollbackRange);
+
+// №6
+const rollbackSpan = document.querySelector('.rollback span.range-value');
+console.log(rollbackSpan);
