@@ -28,3 +28,6 @@ const aside = document.querySelector('.books');
 arrBooks.forEach(item => {
     aside.appendChild(item);
 })
+
+// №2
+document.body.style.backgroundImage = 'url(./image/you-dont-know-js.jpg)';
