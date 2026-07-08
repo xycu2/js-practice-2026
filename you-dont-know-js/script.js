@@ -38,3 +38,8 @@ document.body.style.backgroundImage = 'url(./image/you-dont-know-js.jpg)';
 const bookTitle = document.querySelectorAll('.book > h2');
 
 bookTitle[2].textContent = 'Книга 3. this и Прототипы Объектов';
+
+// №4
+const advertising = document.querySelector('.adv');
+
+advertising.style.display = 'none';
