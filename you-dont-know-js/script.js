@@ -31,3 +31,10 @@ arrBooks.forEach(item => {
 
 // №2
 document.body.style.backgroundImage = 'url(./image/you-dont-know-js.jpg)';
+
+// №3
+
+
+const bookTitle = document.querySelectorAll('.book > h2');
+
+bookTitle[2].textContent = 'Книга 3. this и Прототипы Объектов';
