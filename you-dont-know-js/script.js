@@ -44,11 +44,6 @@ const advertising = document.querySelector('.adv');
 advertising.style.display = 'none';
 
 // №5
-const listItems = arrBooks[1].querySelectorAll('li');
-const listItemsFive = arrBooks[4].querySelectorAll('li');
-
-const arrayLi = [...listItems];
-const arrayLiFive = [...listItemsFive];
 
 function sortList(bookElement) {
     const listItems = bookElement.querySelectorAll('li');
