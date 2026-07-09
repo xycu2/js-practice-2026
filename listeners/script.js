@@ -5,6 +5,7 @@ const square = document.getElementById('square');
 const circle = document.getElementById('circle');
 const btnInSquare = document.getElementById('e_btn');
 const inputRange = document.getElementById('range');
+const rangeSpan = document.getElementById('range-span');
 
 btn.addEventListener('click', () => {
     const colorSquare = input.value;
@@ -19,5 +20,7 @@ btnInSquare.style.display = 'none';
 
 inputRange.addEventListener('input', () => {
     circle.style.height = `${inputRange.value}%`;
-    circle.style.width = `${inputRange.value}%`
+    circle.style.width = `${inputRange.value}%`;
+
+    rangeSpan.textContent = inputRange.value;
 })
