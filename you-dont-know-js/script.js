@@ -87,3 +87,15 @@ function sortList(bookElement) {
 
 sortList(arrBooks[1]);
 sortList(arrBooks[4]);
+
+
+// №6
+const liSix = arrBooks[5].querySelectorAll('li');
+const arrLiSix = [...liSix]; 
+
+
+const li = document.createElement('li');
+li.textContent  = 'Глава 8: За пределами ES6';
+
+arrLiSix.at(-1).insertAdjacentElement('beforebegin', li);
+arrLiSix.push(li);
