@@ -28,6 +28,15 @@ function render() {
             item.completed = !item.completed;
             render()
         })
+        li.querySelector('.todo-remove').addEventListener('click', () => {
+            const index = toDoData.indexOf(item);
+
+            if (index !== -1) {
+                toDoData.splice(index, 1);
+            }
+
+            render();
+        })
     })
 }
 
