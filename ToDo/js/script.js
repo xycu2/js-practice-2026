@@ -39,8 +39,13 @@ todoControl.addEventListener('submit', (e) => {
         completed: false
     };
 
-    toDoData.push(newTodo);
-    headerInput.value = '';
+    if (newTodo.text === '') {
+        alert('Строка не должна быть пустрой!');
+    } else {
+        toDoData.push(newTodo);
+        headerInput.value = '';
+    
+        render();
+    }
 
-    render();
 })
