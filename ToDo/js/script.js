@@ -6,7 +6,7 @@ const todoCompleted = document.querySelector('.todo-completed');
 const toDoData = JSON.parse(localStorage.getItem('task')) || [];
 
 
-function render() {
+const render = () => {
     todoList.innerHTML = '';
     todoCompleted.innerHTML = '';
     toDoData.forEach(item => {
