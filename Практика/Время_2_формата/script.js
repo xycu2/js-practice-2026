@@ -2,7 +2,7 @@ const days = ['Воскресенье','Понеделник','Вторник','
 const months = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
 
 // функция проверки часов
-function declensionHours(hours) {
+const declensionHours = (hours) => {
     if ((hours >= 2 && hours <= 4) || (hours >= 22 && hours <= 24)) {
         return `${hours} часа` 
     } else if (hours >= 5 && hours <= 20) {
@@ -13,7 +13,7 @@ function declensionHours(hours) {
 }
 
 // функция , которая добавляет 0 перед одиночной цифрой
-function correctTime(time) {
+const correctTime = (time) => {
     return String(time).padStart(2, '0')
 }
 
