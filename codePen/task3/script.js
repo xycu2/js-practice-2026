@@ -9,7 +9,7 @@ const cityArr = {
   jap: ['Токио', 'Киото', 'Осака', 'Иокогама'] 
 }
 
-function updateText() {
+function updateResult() {
     const countryText = country.options[country.selectedIndex].text
     const cityText = city.value
 
