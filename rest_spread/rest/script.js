@@ -1,4 +1,4 @@
-// rest 
+// rest всегда идет последним параметром
 const sum = (a, b, c, ...params) => {
     console.log(a);
     console.log(b);
