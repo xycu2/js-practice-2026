@@ -13,7 +13,7 @@ console.log(date.toLocaleDateString('en'));
 console.log(date.toLocaleTimeString('en'));
 
 // 01.01.1970 00:00:00:00
-date.setFullYear(1965)
+date.setFullYear(1965);
 
 console.log(date.getTime()); // times tamp  
 
