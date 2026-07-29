@@ -5,5 +5,6 @@ colorGrid.addEventListener('click', (e) => {
     if (e.target.matches('.color-card')) {
         const color = e.target.dataset.color;
         previewBox.style.backgroundColor = color;
+        previewBox.textContent = color;
     }
 })
