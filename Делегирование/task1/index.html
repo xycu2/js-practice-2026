@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Палитра цветов</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding-top: 40px;
+      font-family: sans-serif;
+      background-color: #f4f4f9;
+    }
+
+    /* Блок-превью */
+    .preview-box {
+      width: 200px;
+      height: 200px;
+      border-radius: 12px;
+      background-color: #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #fff;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+
+    /* Контейнер для карточек (РОДИТЕЛЬ) */
+    .color-grid {
+      display: flex;
+      gap: 15px;
+    }
+
+    /* Цветные карточки */
+    .color-card {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .color-card:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Большой блок, который будет менять цвет -->
+  <div class="preview-box">Выбери цвет</div>
+
+  <!-- Контейнер со всеми карточками -->
+  <div class="color-grid">
+    <div class="color-card" data-color="#FF5733" style="background-color: #FF5733;"></div>
+    <div class="color-card" data-color="#33FF57" style="background-color: #33FF57;"></div>
+    <div class="color-card" data-color="#3357FF" style="background-color: #3357FF;"></div>
+    <div class="color-card" data-color="#F39C12" style="background-color: #F39C12;"></div>
+    <div class="color-card" data-color="#9B59B6" style="background-color: #9B59B6;"></div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
